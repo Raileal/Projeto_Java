@@ -56,9 +56,6 @@ projeto-distribuido
 
 6. E após o envio será mostrado o reusltado tanto no log do terminal quanto na interface, com o log no terminal sendo mais detalhado o processo.
    
-![Captura de tela 2025-04-11 112411](https://github.com/user-attachments/assets/09f9ebf7-8f95-42ca-8ad4-03c417cf08ba)
-
-7.
 ![Captura de tela 2025-04-11 112517](https://github.com/user-attachments/assets/0be4f520-fbb4-495b-9b68-9a02624ee9b6)
 
 ## Como Funciona
