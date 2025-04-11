@@ -6,6 +6,10 @@ Este projeto é uma aplicação distribuída que consiste em um servidor e um cl
 
 ```
 projeto-distribuido
+├── cliente
+│   └── ClienteGUI.class
+│   └── ClienteGUI.java
+│   └── ClienteGUI$1.class
 ├── servidor
 │   ├── mestre
 │   │   ├── Mestre.java
@@ -17,9 +21,6 @@ projeto-distribuido
 │   │   ├── Escravo2.java
 │   │   └── Dockerfile
 │   └── docker-compose.yml
-├── cliente
-│   └── src
-│       └── ClienteGUI.java
 └── README.md
 ```
 
@@ -39,22 +40,31 @@ projeto-distribuido
 ### Para o Cliente
 
 1. Certifique-se de que o servidor está em execução.
-2. Navegue até o diretório `cliente/src`.
+2. Navegue até o diretório `cliente`.
 3. Compile e execute o arquivo `ClienteGUI.java`:
 
    ```
    javac ClienteGUI.java
    java ClienteGUI
-   ```
 
-4. A interface gráfica permitirá que você selecione um arquivo de texto e o envie para o servidor mestre.
+
+4. Ira aparecer uma interface gráfica permitirá que você selecione um arquivo de texto e o envie para o servidor mestre.
+![Captura de tela 2025-04-11 112241](https://github.com/user-attachments/assets/3d6ff5a0-9cb6-4b7b-88ef-2b75c65f6faf)
+
+5. Após aparecer a interface basta clicar em "Enviar arquivo" e navegar ate o .txt que deseja enviar
+![Captura de tela 2025-04-11 112411](https://github.com/user-attachments/assets/36fb4452-839a-4f98-90c9-f5a4d9a82fff)
+
+7. E após o envio será mostrado o reusltado tanto no log do terminal quanto na interface, com o log no terminal sendo mais detalhado o processo.
+![Captura de tela 2025-04-11 112411](https://github.com/user-attachments/assets/09f9ebf7-8f95-42ca-8ad4-03c417cf08ba)
 
 ## Como Funciona
 
 - O cliente envia um arquivo de texto para o servidor mestre.
+- O servido mestre confere a disponibilidade dos escravos pela função "escravoDisponivel".
 - O servidor mestre distribui a requisição para os escravos:
   - O escravo1 conta o número de letras.
   - O escravo2 conta o número de dígitos.
+
 - O servidor mestre compila as respostas e as retorna ao cliente.
 
 ## Requisitos
