@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mestre:
+    build: ./mestre
+    ports:
+      - "8080:8080"
+    networks:
+      - rede-interna
+
+  escravo1:
+    build: ./escravo1
+    networks:
+      - rede-interna
+
+  escravo2:
+    build: ./escravo2
+    networks:
+      - rede-interna
+
+networks:
+  rede-interna:
