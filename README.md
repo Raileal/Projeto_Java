@@ -58,7 +58,11 @@ projeto-distribuido
    
 ![Captura de tela 2025-04-11 112411](https://github.com/user-attachments/assets/09f9ebf7-8f95-42ca-8ad4-03c417cf08ba)
 
+7.
+![Captura de tela 2025-04-11 112517](https://github.com/user-attachments/assets/0be4f520-fbb4-495b-9b68-9a02624ee9b6)
+
 ## Como Funciona
+
 
 - O cliente envia um arquivo de texto para o servidor mestre.
 - O servido mestre confere a disponibilidade dos escravos pela função "escravoDisponivel".
