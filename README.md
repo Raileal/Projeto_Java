@@ -54,7 +54,7 @@ projeto-distribuido
 5. Após aparecer a interface basta clicar em "Enviar arquivo" e navegar ate o .txt que deseja enviar
 ![Captura de tela 2025-04-11 112411](https://github.com/user-attachments/assets/36fb4452-839a-4f98-90c9-f5a4d9a82fff)
 
-7. E após o envio será mostrado o reusltado tanto no log do terminal quanto na interface, com o log no terminal sendo mais detalhado o processo.
+6. E após o envio será mostrado o reusltado tanto no log do terminal quanto na interface, com o log no terminal sendo mais detalhado o processo.
    
 ![Captura de tela 2025-04-11 112411](https://github.com/user-attachments/assets/09f9ebf7-8f95-42ca-8ad4-03c417cf08ba)
 
